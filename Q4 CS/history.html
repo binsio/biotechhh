@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Biofount: History </title>
+			<link rel="stylesheet" href="history.css">
+		</head>
+		<body>
+		 <h1> HISTORY </h1>
+		 <nav> 
+			<center>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="field.html">Fields</a></li>
+					<li><a href="acc.html">Accomplishments</a></li>
+				</ul>
+			</center>
+		</nav>
+		<p id="next">Zymotechnology or zymurgy, which started as an effort to comprehend industrial fermentation, particularly beer, gave rise to the field of biotechnology. Not just a social good, beer was a significant industrial commodity. Brewing had the same economic impact as steel in late 19th-century Germany, and alcohol taxes turned out to be a significant source of revenue for the state. Brewing technology was the focus of institutes and lucrative consultancies in the 1860s. The most well-known of these was the private Carlsberg Institute, established in 1875, which employed Emil Christian Hansen, a pioneer of the pure yeast method for the consistent, dependable production of beer. Private advisory firms that provided advice to the brewing industry were less well known. One of these, the Zymotechnic Institute, was founded in Chicago by chemist John Ewald Siebel, who is of German descent.</p>
+		<h3><a onclick="next()" id="nextOne"> >> </a></h3>
+		<h3><a onclick="revert()" id="nextTwo" style="display: none"> << </a></h3>
+		<img src="brew.png">
+		</body>
+		<script>
+			function next() {
+				document.getElementById("next").innerHTML="The term 'biotechnology' was first used in 1919 in a book by the Hungarian agricultural engineer Károly Ereky, titled Biotechnologie der Fleisch-, Fett- und Milcherzeugung im landwirtschaftlichen Grossbetriebe (Biotechnology of Meat, Fat and Milk Production in an Agricultural Large-Scale Farm). In this book, he described a technology based on transforming raw materials into a more useful product. He constructed a slaughterhouse with space for 1,000 pigs and a fattening farm with 50,000 pigs, raising over 100,000 pigs annually.";
+				document.getElementById("nextTwo").style="display: inline";
+				document.getElementById("nextOne").style="display: none";
+			}
+			function revert() {
+				document.getElementById("next").innerHTML="Zymotechnology or zymurgy, which started as an effort to comprehend industrial fermentation, particularly beer, gave rise to the field of biotechnology. Not just a social good, beer was a significant industrial commodity. Brewing had the same economic impact as steel in late 19th-century Germany, and alcohol taxes turned out to be a significant source of revenue for the state. Brewing technology was the focus of institutes and lucrative consultancies in the 1860s. The most well-known of these was the private Carlsberg Institute, established in 1875, which employed Emil Christian Hansen, a pioneer of the pure yeast method for the consistent, dependable production of beer. Private advisory firms that provided advice to the brewing industry were less well known. One of these, the Zymotechnic Institute, was founded in Chicago by chemist John Ewald Siebel, who is of German descent.";
+				document.getElementById("nextOne").style="display: inline";
+				document.getElementById("nextTwo").style="display: none";
+			}
+		</script>
+	</html>

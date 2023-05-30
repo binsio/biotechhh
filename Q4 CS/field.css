@@ -1,0 +1,314 @@
+* {
+	overflow-x: hidden;
+	
+}
+body {
+	background-color: #284455;
+	margin: 0%;
+}
+h1 {
+	font-family: Bright Melody Personal Use Only;
+	font-size: 80px;
+	color: #F1D7BD;
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	letter-spacing: 1px;
+	text-shadow: -4px 2px #C4661F;
+}
+.med {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 27%;
+	left: 10.5%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.pharm {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 27%;
+	left: 42%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.plant {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 27%;
+	left: 72%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.cell {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 60%;
+	left: 12.7%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.ferm {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 60%;
+	left: 40.5%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.env {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 60%;
+	left: 68%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.food {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 95%;
+	left: 17.5%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.inf {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 40px;
+	color: #284455;
+	top: 95%;
+	left: 64.5%;
+	position: absolute;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 2px #F1D7BD;
+}
+.first {
+	padding-top: 300px;
+}
+.second {
+	padding-top: 310px;
+}
+.third {
+	padding-top: 320px;
+}
+#medbio {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	transition: 1s;	
+	box-shadow: -4px 4px #C4661F;
+}
+#medbio:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#pharm {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;	
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#pharm:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#plant {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#plant:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#cell {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#cell:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#ferm {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;	
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#ferm:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#env {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#env:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#food {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#food:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+#inf {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #F1D7BD;
+	position: absolute;
+	left: 73%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	background-color: #F1D7BD;
+	padding: 30px;
+	border-radius: 30px;
+	height: 20px;
+	overflow-y: hidden;
+	box-shadow: -4px 4px #C4661F;
+}
+#inf:hover {
+	height: 300px;
+	color: #284455;
+	transition: 1s;
+	position: relative;
+}
+nav {
+	position: absolute;
+	font-family: Bright Melody Personal Use Only;
+	justify-content: space-between;
+	display: flex;
+	left: 50%;
+	top: -140px;
+	transition: 1s;
+}
+nav ul li {
+	list-style: none;
+	margin: 20px;
+	font-size: 30px;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+nav ul li a {
+	text-decoration: none;
+	color:  #284455;
+	transition: 1s;
+	text-align: center;
+	padding: 40px;
+	background: #F1D7BD;
+	border-radius: 20px;
+	
+}
+nav ul li a:hover {
+	position: relative;
+	font-family: Bright Melody Personal Use Only;
+	transition: 1s;
+	background:  #E4B485;
+	font-size: 40px;
+}
+nav:hover {
+	transform: translate(0px, 80px);
+	transition: 1s;
+}

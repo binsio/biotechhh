@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Biofount </title>
+			<link rel="stylesheet" href="index.css">
+		</head>
+		<body>
+			<h1 id="biotech">Bio Technology </h1>
+			<p id="bio">At its simplest, biotechnology is technology based on biology - biotechnology harnesses cellular and biomolecular processes to develop technologies and products that help improve our lives and the health of our planet. We have used the biological processes of microorganisms for more than 6,000 years to make useful food products, such as bread and cheese, and to preserve dairy products.</p>
+			<nav> 
+				<ul>
+					<li><a href="history.html" onmouseover="history()" onmouseout="out()">History</a></li>
+					<li><a href="field.html" onmouseover="field()" onmouseout="out()">Fields</a></li>
+					<li><a href="acc.html"onmouseover="acc()" onmouseout="out()">Accomplishments</a></li>
+				</ul>
+			</nav>
+		</body>
+		<script>
+			function history() {
+				document.getElementById("bio").innerHTML="PREVIEW: The Hungarian Károly Ereky coined the word 'biotechnology' in Hungary during 1919 to describe a technology based on converting raw materials into a more useful product...";
+				document.getElementById("biotech").innerHTML="History of BioTech";
+			}
+			function field() {
+				document.getElementById("bio").innerHTML="PREVIEW: The sphere of biotechnology includes medical biotechnology, pharmaceutical biotechnology, plant biotechnology, cellular biotechnology, fermentation biotechnology, food biotechnology, environmental biotechnology, and bioinformatics...";
+				document.getElementById("biotech").innerHTML="Fields in BioTech";
+			}
+			function acc() {
+				document.getElementById("bio").innerHTML="PREVIEW: Biotechnology is also employed in waste management and reducing pollution. For example...";
+				document.getElementById("biotech").innerHTML="Accomplishments";
+			}
+			function out() {
+				document.getElementById("bio").innerHTML="At its simplest, biotechnology is technology based on biology - biotechnology harnesses cellular and biomolecular processes to develop technologies and products that help improve our lives and the health of our planet. We have used the biological processes of microorganisms for more than 6,000 years to make useful food products, such as bread and cheese, and to preserve dairy products.";
+				document.getElementById("biotech").innerHTML="Bio Technology";
+			}
+		</script>
+	</html>

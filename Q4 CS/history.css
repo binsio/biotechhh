@@ -1,0 +1,93 @@
+* {
+	overflow-x: hidden;
+}
+body {
+	background-color: #F1D7BD;
+	margin: 0%;
+}
+h1 {
+	font-family: Bright Melody Personal Use Only;
+	font-size: 80px;
+	color: #284455;
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	letter-spacing: 1px;
+}
+p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	color: #284455;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+}
+#nextOne {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	color: #284455;
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	
+}
+#nextTwo {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	color: #284455;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+}
+nav {
+	position: absolute;
+	font-family: Bright Melody Personal Use Only;
+	justify-content: space-between;
+	display: flex;
+	left: 50%;
+	top: -140px;
+	transition: 1s;
+}
+nav ul li {
+	list-style: none;
+	margin: 20px;
+	font-size: 30px;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+nav ul li a {
+	text-decoration: none;
+	color:  #F1D7BD;
+	transition: 1s;
+	text-align: center;
+	padding: 40px;
+	background: #284455;
+	border-radius: 20px;
+	
+}
+nav ul li a:hover {
+	position: relative;
+	font-family: Bright Melody Personal Use Only;
+	transition: 1s;
+	color: #E4B485;
+	font-size: 40px;
+}
+nav:hover {
+	transform: translate(0px, 80px);
+	transition: 1s;
+}
+img {
+	height: 600px;
+	width: 500px;
+	top: 15%;
+	left: 65%;
+	position: absolute;
+	border-style: solid;
+}
